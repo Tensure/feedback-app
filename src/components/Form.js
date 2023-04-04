@@ -7,7 +7,6 @@ export default function Form() {
     const [email, setEmail] = useState('');
     const [company, setCompany] = useState('');
     const [position, setPosition] = useState('');
-    const [password, setPassword] = useState('');
 
     // States for checking the errors
     const [submitted, setSubmitted] = useState(false);
@@ -23,12 +22,6 @@ export default function Form() {
     // Handling the email change
     const handleEmail = (e) => {
         setEmail(e.target.value);
-        setSubmitted(false);
-    };
-
-    // Handling the password change
-    const handlePassword = (e) => {
-        setPassword(e.target.value);
         setSubmitted(false);
     };
 
