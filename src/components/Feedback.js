@@ -7,7 +7,7 @@ export default function Feedback() {
     const {company, level} = useParams();
 
     useEffect(() => {
-            fetch('https://web-service-3eugyejtka-ue.a.run.app/feedback/?company='+company+'&?=level='+level, {  // Enter your IP address here
+            fetch('https://web-service-3eugyejtka-uc.a.run.app/feedback/?company='+company+'&?=level='+level, {  // Enter your IP address here
                 method: 'GET',
                 mode: 'cors',
             }).then((data) => {

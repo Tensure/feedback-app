@@ -55,7 +55,7 @@ export default function Form() {
                 "position": position
             }
 
-            fetch('https://web-service-3eugyejtka-ue.a.run.app/company-signup', {  // Enter your IP address here
+            fetch('https://web-service-3eugyejtka-uc.a.run.app/company-signup', {  // Enter your IP address here
 
                 method: 'POST',
                 mode: 'cors',
